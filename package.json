@@ -9,19 +9,45 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.0.0-next-0090a73-20240411204355",
+    "@headlessui/react": "^1.7.19",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@prisma/client": "^5.12.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "axios": "^1.6.8",
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "lodash": "^4.17.21",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "next-cloudinary": "^6.5.0",
+    "next-superjson-plugin": "^0.6.3",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-hook-form": "^7.51.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/lodash": "^4.17.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "prisma": "^5.12.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
