@@ -6,7 +6,7 @@ import GithubProvider from "next-auth/providers/github";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import prisma from "@/app/libs/prismadb";
 
-export const authOptions: AuthOptions = {
+const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GithubProvider({
@@ -53,4 +53,4 @@ const handler = NextAuth(authOptions); //Part of the code where it initialized N
 
 export { handler as GET, handler as POST };
 
-//personal note, part of the system where it validates the user either he or she uses Google, Github, or is registered to the system, and also authenticates if it is valid with the use of bcrypt.
+//personal note, part of the system where it validates the user either he or she uses Github, or is registered to the system, and also authenticates if it is valid with the use of bcrypt.
