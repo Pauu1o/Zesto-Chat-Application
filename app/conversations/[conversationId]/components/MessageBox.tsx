@@ -23,7 +23,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({ data, isLast }) => {
   const body = clsx("flex flex-col gap-2", isOwn && "items-end");
   const message = clsx(
     "text-sm w-fit overflow-hidden",
-    isOwn ? "bg-orange-500 text-white py-2 px-3 rounded-full" : "bg-gray-100"
+    isOwn ? "bg-orange-500 text-white py-2 px-3 rounded-full" : "text-white"
   );
   return (
     <div className={container}>
