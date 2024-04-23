@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       {/* RIGHT COL */}
-      <div className="flex bg-BGleft bg-no-repeat bg-cover w-full mx-auto hidden:sm:flex">
+      <div className="flex bg-BGleft bg-no-repeat bg-cover w-full mx-auto hidden md:flex">
         <div className="mx-auto max-y-md max-w-lg flex items-center">
           <h1 className="text-white font-bold text-5xl text-center">
             <Typewriter
